@@ -71,19 +71,22 @@
     justify-content: space-around;
 }
 body{
+    margin-top: 0;
     margin-inline: auto;
     font-family:"Hiragino Sans", "Yu Gothic", "MS PGothic", "sans-serif";
     letter-spacing: 0.1em;
 }
 main{
+    margin-top: 0;
     max-width: 1280px;
     margin-inline: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    
 }
 main > * + *{
     box-sizing: border-box;
     margin-top: 3em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 h1{
     color: #0097B2;
@@ -306,7 +309,6 @@ h2{
     background-image: url(sample/cost1.png);
     background-repeat: no-repeat;
     position: relative;
-    margin-left: 55px;
 }
 .cost1 h2{
     letter-spacing: .3em;
@@ -324,7 +326,7 @@ h2{
     background-image: url(sample/cost2.png);
     background-repeat: no-repeat;
     position: relative;
-    margin-right: 55px;
+    margin-left: 2.5rem;
 }
 .cost2 h2{
     letter-spacing: .3em;
@@ -343,6 +345,9 @@ h2{
 }
 .entry p{
     display: inline-block;
-    width: 700px;
-    margin: 40px 150px 32px 150px;
+    max-width: 700px;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 9.75rem;
+    margin-right: 9.75rem;
 }
