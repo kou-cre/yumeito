@@ -29,7 +29,8 @@
     .top{
         background-size: cover;
     }
-    .top img{
+    .top_left > img{
+        height: 240px;
         max-width: 100%;
         object-fit: cover;
     }
