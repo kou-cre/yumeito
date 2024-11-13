@@ -200,11 +200,12 @@ h2{
 }
 .comment h3{
     text-align: center;
+    margin: 0;
 }
 .comment{
     width: 260px;
     height: 500px;
-    padding: 1em 1em 2em 1em;
+    padding: .5em 1em 0em 1em;
     text-align: left;
 }
 
