@@ -1,0 +1,348 @@
+.border{
+    border-left: 2px solid rgb(54 160 180 /.4);
+    border-bottom: 4px solid rgb(54 160 180 /.4);
+    box-shadow: 0 4px 4px 0 rgb(54 160 180 /.7); 
+    max-width: 1000px;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-inline: auto;
+    padding-bottom: 2.5em;
+}
+.underline h1{
+    display: inline-block;
+    position: relative;
+}
+.underline h1::after{
+    position: absolute;
+    content:"";
+    background-color:yellow;
+    background: linear-gradient(90deg, #E8C725,rgb(0 0 0 /0));
+    border-bottom-left-radius: 15px;
+    transform: rotate(-2deg);
+    width: 110%;
+    height: 8px;
+    bottom: 0px;
+    left: -5px;
+  }
+  .btn-i img{
+    border-radius: 110px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25);
+  }
+  .underline-s span{
+    display: inline-block;
+    position: relative;
+}
+.underline-s span::after{
+    position: absolute;
+    content:"";
+    background-color:yellow;
+    background: linear-gradient(0deg, #0097B2,rgb(0 0 0 /0));
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 90%;
+    height: 8px;
+    bottom: .04em;
+    left: 5%;
+  }
+  .btn-i img{
+    border-radius: 110px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25);
+  }
+/*
+  .btn{
+    display: inline-block;
+    font-size: 18px;
+    width: 220px;
+    height: 70px;
+    font-weight: bold;
+    background-color: #FDD149;
+    border-radius: 2px;
+    line-height: 70px;
+    margin-top: 2.5em;
+    box-shadow: 0 4px 4px 0 #9b9b9b;
+    text-decoration: none;
+    }
+*/
+  
+.fl{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+body{
+    margin-inline: auto;
+    font-family:"Hiragino Sans", "Yu Gothic", "MS PGothic", "sans-serif";
+    letter-spacing: 0.1em;
+}
+main{
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+main > * + *{
+    box-sizing: border-box;
+    margin-top: 3em;
+}
+h1{
+    color: #0097B2;
+    text-shadow: 0 4px 4px rgb(0 0 0 /.25);
+}
+h2{
+    text-align: left;
+    margin-top: 0;
+}
+.title{
+    margin-left: 3em;
+}
+
+/*----------------------トップ--------------------------*/
+.top{
+    margin-top: 0;
+    display: flex;
+    height: 400px;
+    background-image: url(sample/top.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.top img{
+    display: inline-block;
+}
+.top_left{
+    width: 470px;
+    text-align: center;
+    
+}
+.catch{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*------------------------ユメイトとは-----------------*/
+
+
+.about2 > h2{
+    display: none;
+}
+.about2 img{
+    width: 400px;
+}
+.about3{
+    max-width: 530px;
+    margin-top: .75rem;
+    margin-right: 2rem;
+}
+.about3 span{
+    font-size: 2rem;
+}
+
+/*-------------------3つのポイント-----------------------*/
+
+.f1, .f3{
+    flex-direction: row-reverse;
+}
+.f1 > p, .f2 > p, .f3 > p{
+    display: none;
+}
+.f1 img, .f3 img{
+    margin-right: 40px;
+    box-shadow: -25px -15px 0 0 #dddddd;
+}
+.f2 img{
+    margin-left: 40px;
+    box-shadow: 25px -15px 0 0 #dddddd;
+}
+.text{
+    max-width: 620px;
+    width: 100%;
+}
+.text span{
+    font-size: 2rem;
+}
+
+/*--------------------コンテンツ----------------------*/
+
+.cc h2{
+    font-size: 32px;
+    padding-left: 40px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+.cc h3{
+    text-align: center;
+}
+.dc{
+    width: 280px;
+    height: 470px;
+    text-align: left;
+    
+}
+.wc{
+    width: 240px;
+    height: 470px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.ccc{
+    max-width: 1090px;
+    text-align: right;
+}
+/*--------------------------参加者の声--------------------------*/
+
+.comment-wrap{
+    text-align: right;
+}
+.comment h3{
+    text-align: center;
+}
+.comment{
+    width: 260px;
+    height: 500px;
+    padding: 1em 1em 2em 1em;
+    text-align: left;
+}
+
+/*----------------参加の流れ-------------------*/
+/*
+.participate{
+    margin-top: 40px;
+}
+.p img{
+    margin-left: 55px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+.text2{
+    width: 430px;
+    margin-right: 100px;
+}
+.text2 p{
+    margin-left: 20px;
+}
+*/
+
+/*---------------------アドバイザー-------------------*/
+/*
+.advisors{
+    margin-top: 40px;
+}
+.advisor-wrap{
+    flex-wrap: wrap;
+}
+.a img{
+    padding: 0 125px;
+}
+.a p{
+    width: 355px;
+    padding: 0 45px;
+}
+.a{
+    width: 450px;
+    height: 470px;
+    display: flex;
+    padding-bottom: 55px;
+    justify-content: center;
+    flex-wrap: wrap;    
+    background-color: #d9d9d9;
+    margin-bottom: 32px;
+}
+*/
+
+/*-----------------しつもん-------------------*/
+
+.qa span{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    translate: -40px -26px;
+}
+.q1{
+    max-width: 660px;
+    line-height: 67px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin-left: 70px;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25) ;
+}
+.q2{
+    max-width: 765px;
+    line-height: 67px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin-left: 70px;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25) ;
+}
+.ans{
+    font-size: 0.95rem;
+    max-width: 660px;
+    line-height: 2rem;
+    background-color: #59A5B2;
+    border-radius: 10px;
+    margin-left: 23%;
+    color: #fff;
+    padding: .75rem 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25) ;
+}
+/*----------------------------費用---------------------------*/
+
+.cost h2, .cost h3{
+    color: #fff;
+    -webkit-text-stroke: 1px rgb(0 0 0 /.25);
+    text-shadow: 0 4px 4px #000;
+}
+.cost1{
+    height: 268px;
+    background-image: url(sample/cost1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 55px;
+}
+.cost1 h2{
+    letter-spacing: .3em;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+.cost1 h3{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+.cost2{
+    height: 268px;
+    background-image: url(sample/cost2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: 55px;
+}
+.cost2 h2{
+    letter-spacing: .3em;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.cost2 h3{
+    position: absolute;
+    bottom: 55px;
+    left: 150px;
+}
+.entry{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.entry p{
+    display: inline-block;
+    width: 700px;
+    margin: 40px 150px 32px 150px;
+}
