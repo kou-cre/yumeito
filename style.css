@@ -316,12 +316,7 @@ h2{
     -webkit-text-stroke: 1px rgb(0 0 0 /.25);
     text-shadow: 0 4px 4px #000;
 }
-.cost1{
-    height: 268px;
-    background-image: url(sample/cost1.png);
-    background-repeat: no-repeat;
-    position: relative;
-}
+
 .cost1 h2{
     letter-spacing: .3em;
     position: absolute;
@@ -333,13 +328,7 @@ h2{
     bottom: 40px;
     left: 100px;
 }
-.cost2{
-    height: 268px;
-    background-image: url(sample/cost2.png);
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 2.5rem;
-}
+
 .cost2 h2{
     letter-spacing: .3em;
     position: absolute;
