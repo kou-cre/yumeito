@@ -84,11 +84,19 @@
     .f1 > p, .f2 > p, .f3 > p{
         display: block;
     }
+    .f1 img, .f3 img{
+        margin-right: 0;
+        box-shadow: none;
+    }
+    .f2 img{
+        margin-left: 0;
+        box-shadow: none;
+    }
     .text span{
         font-size: 1.5rem;
     }
     /*-----------------------------------------*/
-    .contents h2{
+    .cc h2{
         font-size: 1.25rem;
         padding-left: .5rem;
     }
@@ -104,6 +112,7 @@
     .daily{
         display: block grid;
         grid-template-columns: repeat(auto-fit,290px);
+        gap: 0px;
     }
     .weekly{
         display: block grid;
