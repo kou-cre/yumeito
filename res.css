@@ -25,6 +25,14 @@
     .fl{
         flex-wrap: wrap;
     }
+    /*---------------------------------------*/
+    .top{
+        background-size: cover;
+    }
+    .top img{
+        max-width: 100%;
+        object-fit: cover;
+    }
     /*--------------------------------------*/
     .about{
         display: flex;
@@ -58,6 +66,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .fl-comment{
+        display: block grid;
+        grid-template-columns: repeat(auto-fit,260px);
+        gap: 1rem;
+    }
     /*----------------------------------------*/
     .forte{
         display: flex;
@@ -73,6 +86,17 @@
         font-size: 1.5rem;
     }
     /*-----------------------------------------*/
+    .contents h2{
+        padding-left: .5rem;
+    }
+    .daily{
+        display: block grid;
+        grid-template-columns: repeat(auto-fit,290px);
+    }
+    .weekly{
+        display: block grid;
+        grid-template-columns: repeat(auto-fit,250px);
+    }
     .contents{
         display: flex;
         flex-wrap: wrap;
@@ -99,5 +123,24 @@
     .cost{
         display: flex;
         flex-wrap: wrap;
+    }
+    .cost img{
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .const1{
+        margin-top: 2rem;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .cost2{
+        margin-left: 0;
+        margin-top: 2rem;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .entry p{
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
