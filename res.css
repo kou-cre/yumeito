@@ -30,8 +30,8 @@
         background-size: cover;
     }
     .top_left > img{
-        height: 240px;
-        max-width: 100%;
+        max-height: 240px;
+        width: 100%;
         object-fit: cover;
     }
     /*--------------------------------------*/
@@ -45,6 +45,7 @@
         flex-direction: column-reverse;
     }
     .about2 img{
+        object-fit: cover;
         max-width: 550px;
         width: 100%;
         
@@ -88,7 +89,17 @@
     }
     /*-----------------------------------------*/
     .contents h2{
+        font-size: 1.25rem;
         padding-left: .5rem;
+    }
+    .contents h3{
+        margin: 0;
+    }
+    .dc{
+        margin: 0;
+    }
+    .wc{
+        margin-bottom: 0;
     }
     .daily{
         display: block grid;
