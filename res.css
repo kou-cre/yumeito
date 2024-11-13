@@ -148,7 +148,7 @@
     }
     .cost1 img, .cost2 img{
         max-width: 100%;
-        height: 268px;
+        max-height: 268px;
         object-fit: cover;
     }
     .const1{
