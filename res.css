@@ -124,8 +124,9 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .cost img{
+    .cost1 img, .cost2 img{
         max-width: 100%;
+        height: 268px;
         object-fit: cover;
     }
     .const1{
@@ -142,5 +143,10 @@
     .entry p{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .btn-i{
+        height: 62px;
+        max-width: 100%;
+        object-fit: cover;
     }
 }
