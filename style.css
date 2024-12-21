@@ -275,7 +275,7 @@ h2{
     translate: -40px -26px;
 }
 .q1{
-    max-width: 660px;
+    max-width: 765px;
     line-height: 67px;
     border-radius: 10px;
     background-color: #d9d9d9;
@@ -286,7 +286,18 @@ h2{
     box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25) ;
 }
 .q2{
-    max-width: 765px;
+    max-width: 650px;
+    line-height: 67px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    margin-left: 70px;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 /.25) ;
+}
+.q3{
+    max-width: 650px;
     line-height: 67px;
     border-radius: 10px;
     background-color: #d9d9d9;
@@ -311,10 +322,8 @@ h2{
 }
 /*----------------------------費用---------------------------*/
 
-.cost h2, .cost h3{
-    color: #fff;
-    -webkit-text-stroke: 1px rgb(0 0 0 /.25);
-    text-shadow: 0 4px 4px #000;
+.cost h2{
+    color: #000;
 }
 
 .cost1 h2{
